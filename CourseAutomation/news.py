@@ -2,6 +2,7 @@ from lib2to3.pgen2 import driver
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 import pandas as pd
+#Automate Udemy
 
 website="https://www.udemy.com/courses/search/?src=ukw&q=react"
 path="C:\\Users\\mahad\\OneDrive\\Desktop\\To-Do List\\chromedriver.exe"
