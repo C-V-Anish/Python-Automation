@@ -1,4 +1,3 @@
-from lib2to3.pgen2 import driver
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 import pandas as pd
@@ -37,7 +36,7 @@ my_dict={
     "Link":links
 }
 
-final_path="C:\\Users\\mahad\\OneDrive\\Desktop\\To-Do List\\Automation\\NewsAutomation"
+final_path="C:\\Users\\mahad\\OneDrive\\Desktop\\To-Do List\\Automation\\CourseAutomation"
 frame=pd.DataFrame(my_dict)
 frame.to_csv(final_path+'\\React.csv')
 
